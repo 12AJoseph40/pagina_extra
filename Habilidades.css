@@ -1,0 +1,47 @@
+body{
+    background-image:linear-gradient(to top right,red,#151515);
+    display: flex;
+}
+body>div{
+    flex-grow: 1;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid white;
+    gap: 3px;
+}
+img{
+    width: 160px;
+    padding: 0px 20px 0px 20px;
+}
+.p1{
+    padding: 0px 100px 0px 0px;
+}
+.contenido1{
+    flex-grow: 3;
+}
+.conts{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none ;
+    color: black;
+    font-size: 30px;
+}
+.indice{
+    border: 1px solid black;
+    display: flex;
+    flex-grow: 0;
+    justify-content: space-around;
+}
+span{
+    font-size: 40px;
+    text-decoration: underline ;
+    height: 100%;
+}
+p{
+    background-color: rgba(255, 0, 0, 0.182);
+    
+}

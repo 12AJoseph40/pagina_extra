@@ -1,0 +1,54 @@
+body{
+    background-image:linear-gradient(to top right,red,#151515);
+    display: flex;
+}
+body>div{
+    flex-grow: 1;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid white;
+    gap: 3px;
+}
+a{
+    text-decoration: none ;
+    color: black;
+    font-size: 30px;
+}
+.indice{
+    border: 1px solid black;
+    display: flex;
+    flex-grow: 0;
+    justify-content: space-around;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.ti{
+    font-size: 100px;
+}
+.cont{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 1000px;
+    height:700px;
+    background-image: linear-gradient(red,yellow);
+    justify-content: center;
+    padding: 0px 0px 0px 50px;
+}
+input,button{
+    width: 550px;
+    font-size:40px ;
+    border-style: none none solid none;
+    border-color: black;
+    background-color: transparent;
+    outline: none;
+}
+button{
+    border: 1px solid black;
+}

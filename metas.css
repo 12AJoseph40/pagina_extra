@@ -1,0 +1,37 @@
+body{
+    background-image:linear-gradient(to top right,red,#151515);
+    display: flex;
+}
+body>div{
+    flex-grow: 1;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid white;
+    gap: 30px;
+}
+a{
+    text-decoration: none ;
+    color: black;
+    font-size: 30px;
+}
+.indice{
+    border: 1px solid black;
+    display: flex;
+    flex-grow: 0;
+    justify-content: space-around;
+}
+div{
+    display: flex;
+    border: 1px solid white;
+    gap: 15px;
+    align-content: center;
+}
+
+h1{
+    width: 120px;
+    font-size: 20px;
+    text-decoration:underline ;
+
+}
